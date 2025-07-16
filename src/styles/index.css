@@ -9,3 +9,41 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body{
+    margin-top: 100px;
+}
+
+ul{
+    padding: 0;
+    margin-bottom: 0 ;
+    align-items: center;
+}
+
+ul li{
+    border:  2px solid black;
+    list-style: none;
+    padding: 5px;
+    width: 600px;
+}
+
+h1{
+text-align: center;
+}
+
+input{
+    border: none; width: 100%;
+}
+
+.icon{
+    float: right;
+
+}
+
+.container{
+    width: 600px;
+    margin: 0 auto;
+}
+
+*{
+    background-color: bisque;
+}
